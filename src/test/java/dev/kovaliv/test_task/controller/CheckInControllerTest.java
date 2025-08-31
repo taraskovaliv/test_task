@@ -6,14 +6,12 @@ import dev.kovaliv.test_task.data.dto.CheckInResponseDTO;
 import dev.kovaliv.test_task.data.dto.CheckOutDto;
 import dev.kovaliv.test_task.data.dto.CheckOutResponseDTO;
 import dev.kovaliv.test_task.service.CheckInService;
-import dev.kovaliv.test_task.service.ParkingLevelService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.bean.override.mockito.MockitoBean;
 import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 import java.math.BigDecimal;
 import java.sql.Timestamp;

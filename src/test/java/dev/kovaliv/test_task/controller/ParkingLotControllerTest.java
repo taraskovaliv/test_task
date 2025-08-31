@@ -5,7 +5,6 @@ import dev.kovaliv.test_task.data.dto.CreateParkingLotDTO;
 import dev.kovaliv.test_task.data.dto.ParkingLotDTO;
 import dev.kovaliv.test_task.service.ParkingLotService;
 import org.junit.jupiter.api.Test;
-import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.http.MediaType;
